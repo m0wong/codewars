@@ -9,6 +9,7 @@ Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 */
 
+//20180525
 String.prototype.toJadenCase = function () {
   const arr = this.split(' ');
   arr.forEach(function(a,i){

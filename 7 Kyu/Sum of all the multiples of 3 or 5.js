@@ -10,6 +10,7 @@ findSum(5) should return 8 (3 + 5)
 findSum(10) should return 33 (3 + 5 + 6 + 9 + 10)
 */
 
+//20180525
 function findSum(n) {
   const f = parseInt(n/5);
   const t = parseInt(n/3);
